@@ -63,3 +63,4 @@ def test_login_invalid_credentials():
     response = requests.post(f"{BASE_URL}/api/v1/courier/login", json=payload)
     assert response.status_code == 404
     assert "Учетная запись не найдена" in response.json()["message"]
+# Updated: 2025-07-19 01:05:38
