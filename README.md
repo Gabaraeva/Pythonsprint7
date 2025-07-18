@@ -6,4 +6,4 @@
 
 ```bash
 pip install -r requirements.txt
-pytestThis is the development branch with API tests
+pytest

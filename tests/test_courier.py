@@ -3,6 +3,7 @@ import requests
 from helpers import register_new_courier, delete_courier, login_courier
 from configuration import BASE_URL
 
+
 def test_create_courier_success():
     courier = register_new_courier()
     assert courier is not None

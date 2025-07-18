@@ -9,7 +9,7 @@ def base_order_payload():
         "lastName": "Петров",
         "address": "Москва, ул. Ленина, 1",
         "metroStation": 4,
-        "phone": "+79111234567",
+        "phone": "+79111234587",
         "rentTime": 3,
         "deliveryDate": "2023-12-31",
         "comment": "Тестовый заказ"
